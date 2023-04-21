@@ -1,0 +1,92 @@
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.phone-photo {
+  display: flex;
+  height: 500px;
+}
+.insta-logo {
+  height: 70px;
+  margin: 30px;
+}
+.right-side {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding: 100px;
+}
+.form {
+  border: 1px dotted grey;
+  border-radius: 2px;
+  padding: 55px;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sign-up {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border: 1px dotted grey;
+  border-radius: 2px;
+}
+.getApp {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.googlePlay {
+  flex-wrap: wrap;
+  height: 100%;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.windows {
+  flex-wrap: wrap;
+  height: 60%;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.logInButton {
+  background-color: #3399ff;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+}
+
+.get-the-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appButtons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
